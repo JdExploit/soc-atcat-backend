@@ -1,19 +1,16 @@
 {
   "name": "soc-atcat-backend",
   "version": "1.0.0",
-  "description": "SOC para monitorear ATCAT - Security Operations Center",
+  "description": "SOC para monitorear ATCAT",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "mongoose": "^7.5.0",
+    "mongoose": "^8.0.0",
     "cors": "^2.8.5",
-    "axios": "^1.5.0",
-    "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^9.0.2"
+    "axios": "^1.5.0"
   },
   "engines": {
     "node": "18.x"
