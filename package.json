@@ -1,7 +1,7 @@
 {
   "name": "soc-atcat-backend",
-  "version": "1.0.0",
-  "description": "SOC para monitorear ATCAT",
+  "version": "3.0.0",
+  "description": "SOC para monitorear ATCAT - Con ataques realistas",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
